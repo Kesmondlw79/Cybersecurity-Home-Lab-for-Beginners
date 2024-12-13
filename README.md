@@ -62,7 +62,7 @@ To Install Kali Linux:
   •  Name your VM (e.g., “Kali Linux”)
   ![VirtualBox Name and Kali Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBNameKL.PNG?raw=true)
   	
-   •	Set the operating system to "Linux" 
+   •	Set the "Type" (operating system) to "Linux" 
    
    Subtype and Version, leave as default.
    
