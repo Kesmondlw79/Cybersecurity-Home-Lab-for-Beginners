@@ -63,9 +63,9 @@ To Install Kali Linux:
   ![VirtualBox Name and Kali Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBNameKL.PNG?raw=true)
   	
    •	Set the "Type" (operating system) to "Linux" 
+   ![VirtualBox Type and Kali Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBTypeKL.PNG?raw=true)
    
    Subtype and Version, leave as default.
-   
    •  Assign memory (RAM)—I started with 2GB, but you can adjust it depending on your system's capacity.
    •  Create a new virtual hard disk and set its size (10GB is sufficient for Kali).
 7.	Install Kali Linux by mounting the ISO image you downloaded. Follow the installation prompts to complete the setup.
