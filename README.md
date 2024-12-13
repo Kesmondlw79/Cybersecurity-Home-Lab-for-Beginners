@@ -43,8 +43,10 @@ Download and Install VirtualBox: After selecting the correct package, download a
 • Once you click on the download link, the installer file will automatically download to your computer's default "Downloads" folder (or wherever your browser is set to save files).
 
 (insert pic link here)
+
 • Start Installation: Locate the downloaded installer file in your file manager and double-click it to begin the installation process.
 (insert pic link here)
+
 • User Account Control Prompt: When the User Account Control window pops up asking for permission to make changes to your computer, click the Yes button to continue the installation.
 (insert pic link here)
 
