@@ -27,6 +27,8 @@ Since I had limited resources, buying extra physical machines wasn't an option. 
 I chose VirtualBox, a free and open-source virtualization platform.
 
 Go to the VirtualBox Download Page: Visit the VirtualBox Downloads page.
+![VirtualBox Home Lab Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBHome.PNG?raw=true)
+
 
 Choose the Right Version for Your OS:
 
@@ -36,6 +38,7 @@ If you’re on Windows, click the link under the “Windows hosts” section.
 If you’re on macOS, click the link under the “OS X hosts” section.
 If you’re using a Linux-based OS, select the corresponding package for your distro.
 Download and Install VirtualBox: After selecting the correct package, download and follow the installation prompts for your operating system. The process is straightforward and will guide you through setting up VirtualBox on your machine.
+
 ________________________________________
 Step 3: Install Kali Linux
 Kali Linux is the go-to operating system for penetration testers and security analysts. It comes with hundreds of pre-installed tools for ethical hacking, vulnerability scanning, traffic analysis, and much more. I installed Kali Linux as my primary attacking machine.
