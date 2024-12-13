@@ -56,8 +56,10 @@ To Install Kali Linux:
    •	Open VirtualBox, click on the shortcut on your desktop screen
   	![VirtualBox Desktop Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBdesktop.PNG?raw=true)
 
-  •  Click “New,” and name your VM (e.g., “Kali Linux”)
+  •  Click “New”.
+  ![VirtualBox New VM Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBNewVM.PNG?raw=true)
 
+  •  Name your VM (e.g., “Kali Linux”)
   	
    •	Set the operating system to "Linux" and version to "Debian (64-bit)."
    •  Assign memory (RAM)—I started with 2GB, but you can adjust it depending on your system's capacity.
