@@ -53,7 +53,10 @@ o	Choose the appropriate version (either 32-bit or 64-bit) depending on your sys
 
 2.	Create a New Virtual Machine in VirtualBox:
    •	Open VirtualBox, click on the shortcut on your desktop screen
+  	![VirtualBox Desktop Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBdesktop.PNG?raw=true)
+
   	 click “New,” and name your VM (e.g., “Kali Linux”).
+  	
    •	Set the operating system to "Linux" and version to "Debian (64-bit)."
    •  Assign memory (RAM)—I started with 2GB, but you can adjust it depending on your system's capacity.
    •  Create a new virtual hard disk and set its size (10GB is sufficient for Kali).
