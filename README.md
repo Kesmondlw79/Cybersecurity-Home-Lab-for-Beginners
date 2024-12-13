@@ -38,6 +38,8 @@ If you’re on Windows, click the link under the “Windows hosts” section.
 If you’re on macOS, click the link under the “OS X hosts” section.
 If you’re using a Linux-based OS, select the corresponding package for your distro.
 Download and Install VirtualBox: After selecting the correct package, download and follow the installation prompts for your operating system. The process is straightforward and will guide you through setting up VirtualBox on your machine.
+![VirtualBox Download Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBDownload.PNG?raw=true)
+
 
 ________________________________________
 Step 3: Install Kali Linux
