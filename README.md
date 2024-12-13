@@ -49,12 +49,15 @@ To Install Kali Linux:
    ![Kali Linux Home Lab Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KaliHome.PNG?raw=true)
 
 o	Choose the appropriate version (either 32-bit or 64-bit) depending on your system architecture.
-2.	Create a New Virtual Machine in VirtualBox: 
-o	Open VirtualBox, click “New,” and name your VM (e.g., “Kali Linux”).
-o	Set the operating system to "Linux" and version to "Debian (64-bit)."
-o	Assign memory (RAM)—I started with 2GB, but you can adjust it depending on your system's capacity.
-o	Create a new virtual hard disk and set its size (10GB is sufficient for Kali).
-3.	Install Kali Linux by mounting the ISO image you downloaded. Follow the installation prompts to complete the setup.
+![Kali Linux Download Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KaliDownload.PNG?raw=true)
+
+2.	Create a New Virtual Machine in VirtualBox:
+   •	Open VirtualBox, click on the shortcut on your desktop screen
+  	 click “New,” and name your VM (e.g., “Kali Linux”).
+   •	Set the operating system to "Linux" and version to "Debian (64-bit)."
+   •  Assign memory (RAM)—I started with 2GB, but you can adjust it depending on your system's capacity.
+   •  Create a new virtual hard disk and set its size (10GB is sufficient for Kali).
+7.	Install Kali Linux by mounting the ISO image you downloaded. Follow the installation prompts to complete the setup.
 ________________________________________
 Step 4: Install Metasploitable2 for Target Practice
 Metasploitable2 is a purposely vulnerable virtual machine designed to be hacked. It’s perfect for practicing penetration testing and learning how attackers exploit system vulnerabilities.
