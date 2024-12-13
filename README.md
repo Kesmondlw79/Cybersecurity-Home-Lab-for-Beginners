@@ -45,7 +45,9 @@ ________________________________________
 Step 3: Install Kali Linux
 Kali Linux is the go-to operating system for penetration testers and security analysts. It comes with hundreds of pre-installed tools for ethical hacking, vulnerability scanning, traffic analysis, and much more. I installed Kali Linux as my primary attacking machine.
 To Install Kali Linux:
-1.	Download Kali Linux from the official website: Kali Linux Download 
+1.	Download Kali Linux from the official website: Kali Linux Download. Click on Installer images
+   ![Kali Linux Home Lab Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KaliHome.PNG?raw=true)
+
 o	Choose the appropriate version (either 32-bit or 64-bit) depending on your system architecture.
 2.	Create a New Virtual Machine in VirtualBox: 
 o	Open VirtualBox, click “New,” and name your VM (e.g., “Kali Linux”).
