@@ -26,7 +26,7 @@ Step 2: Download and Install Virtualization Software
 Since I had limited resources, buying extra physical machines wasn't an option. But thanks to virtualization, I was able to create multiple "virtual" computers on my existing machine.
 I chose VirtualBox, a free and open-source virtualization platform.
 
-Go to the VirtualBox Download Page: Visit the VirtualBox Downloads page.
+• Go to the VirtualBox Download Page: Visit the VirtualBox Downloads page.
 ![VirtualBox Home Lab Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBHome.PNG?raw=true)
 
 
@@ -40,7 +40,15 @@ If you’re using a Linux-based OS, select the corresponding package for your di
 Download and Install VirtualBox: After selecting the correct package, download and follow the installation prompts for your operating system. The process is straightforward and will guide you through setting up VirtualBox on your machine.
 ![VirtualBox Download Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBDownload.PNG?raw=true)
 
+• Once you click on the download link, the installer file will automatically download to your computer's default "Downloads" folder (or wherever your browser is set to save files).
 
+(insert pic link here)
+• Start Installation: Locate the downloaded installer file in your file manager and double-click it to begin the installation process.
+(insert pic link here)
+• User Account Control Prompt: When the User Account Control window pops up asking for permission to make changes to your computer, click the Yes button to continue the installation.
+(insert pic link here)
+
+Follow Installation Prompts: The installation wizard will guide you through the process. Choose the default settings for most options unless you have specific requirements.
 ________________________________________
 Step 3: Install Kali Linux
 Kali Linux is the go-to operating system for penetration testers and security analysts. It comes with hundreds of pre-installed tools for ethical hacking, vulnerability scanning, traffic analysis, and much more. I installed Kali Linux as my primary attacking machine.
