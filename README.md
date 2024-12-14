@@ -70,24 +70,31 @@ To Install Kali Linux:
 
   •  Name your VM (e.g., “Kali Linux”)
   ![VirtualBox Name and Kali Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBNameKL.PNG?raw=true)
-  	
+  
+   •	Select the ISO Image.
+
+   ![ISO_Image](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KalilinuxISOImage.PNG)
+   
    •	Set the "Type" (operating system) to "Linux"   • Subtype and Version, leave as default.
    ![VirtualBox Type and Kali Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBTypeKL.PNG?raw=true)
    
-   7. Click the finish button at the bottom of the page.
+   3. Click the finish button at the bottom of the page.
    
-   8. Once your Kali Linux is complete, it will be listed on the left side of your VirtualBox screen under tools.
-      ![Kali_install](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KaliLinuxInstall.PNG) 
-________________________________________
+   4. Once your Kali Linux is complete, it will be listed on the left side of your VirtualBox screen under tools.
+      ![Kali_install](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KaliLinuxInstall.PNG)
+    ________________________________________
+
 Step 4: Install Metasploitable2 for Target Practice
 Metasploitable2 is a purposely vulnerable virtual machine designed to be hacked. It’s perfect for practicing penetration testing and learning how attackers exploit system vulnerabilities.
 To Install Metasploitable2:
-1.	Download Metasploitable2 from the official site: Metasploitable2 Download
-2.	Create Another Virtual Machine in VirtualBox: 
+1.	Download Metasploitable2 from the Rapid 7 website: [Metasploitable2 Download](https://www.rapid7.com/products/metasploit/metasploitable/)
+2.	insert image
+3.	Create Another Virtual Machine in VirtualBox: (here you want to follow the same steps as you did when you created your Kali Linux Virtual Machine).
+4.	insert image
 o	Name it “Metasploitable2.”
 o	Allocate about 512MB to 1GB of RAM (Metasploitable2 doesn’t need much).
 o	Create a virtual hard disk, and make sure it’s large enough (5GB is usually enough).
-3.	Start the VM and once it boots, you should see a login screen. The default login credentials are: 
+5.	Start the VM and once it boots, you should see a login screen. The default login credentials are: 
 o	Username: msfadmin
 o	Password: msfadmin
 Now you have two virtual machines: Kali Linux for attacking and Metasploitable2 for targeting!
