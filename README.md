@@ -60,6 +60,18 @@ To Install Kali Linux:
  • Choose the appropriate version (either 32-bit or 64-bit) depending on your system architecture.
 ![Kali Linux Download Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KaliDownload.PNG?raw=true)
 
+• Start Installation: Locate the downloaded installer file in your file manager and double-click it to begin the installation process.
+
+![Kali_Download](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KaliLinuxdownload.PNG)
+
+• User Account Control Prompt: When the User Account Control window pops up asking for permission to make changes to your computer, click the Yes button to continue the installation.
+![Access_control](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBuseraccountcontrol.png)
+
+Follow Installation Prompts: The installation wizard will guide you through the process.
+
+ • Remember the folder and file path of where you installed your Kali Linux files. You will need this when you create your virtualbox
+ ![File_path](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/KalilinuxFilePath.PNG)
+
 2.	Create a New Virtual Machine in VirtualBox:
    
    •	Open VirtualBox, click on the shortcut on your desktop screen
