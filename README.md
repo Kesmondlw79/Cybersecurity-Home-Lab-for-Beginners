@@ -50,6 +50,10 @@ Download and Install VirtualBox: After selecting the correct package, download a
 ![Access_control](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBuseraccountcontrol.png)
 
 Follow Installation Prompts: The installation wizard will guide you through the process. Choose the default settings for most options unless you have specific requirements.
+
+When the installation is complete it will create a shortcut icon and place it on your desktop.
+
+![VirtualBox Desktop Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBdesktop.PNG?raw=true)
 ________________________________________
 Step 3: Install Kali Linux
 Kali Linux is the go-to operating system for penetration testers and security analysts. It comes with hundreds of pre-installed tools for ethical hacking, vulnerability scanning, traffic analysis, and much more. I installed Kali Linux as my primary attacking machine.
@@ -100,21 +104,54 @@ Step 4: Install Metasploitable2 for Target Practice
 Metasploitable2 is a purposely vulnerable virtual machine designed to be hacked. It’s perfect for practicing penetration testing and learning how attackers exploit system vulnerabilities.
 To Install Metasploitable2:
 1.	Download Metasploitable2 from the Rapid 7 website: [Metasploitable2 Download](https://www.rapid7.com/products/metasploit/metasploitable/)
-2.	insert image
+     ![rapid7](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/Metasploitable%20Rapid%207.PNG)
+  	
 3.	Create Another Virtual Machine in VirtualBox: (here you want to follow the same steps as you did when you created your Kali Linux Virtual Machine).
-4.	insert image
-o	Name it “Metasploitable2.”
-o	Allocate about 512MB to 1GB of RAM (Metasploitable2 doesn’t need much).
-o	Create a virtual hard disk, and make sure it’s large enough (5GB is usually enough).
-5.	Start the VM and once it boots, you should see a login screen. The default login credentials are: 
+  •  Click “New”.
+  ![VirtualBox New VM Setup](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBNewVM.PNG?raw=true)
+
+• Name it “Metasploitable2.”
+![Name_Metasploitable](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/MetasploitableName.PNG)
+
+• Select the ISO Image.
+ ![MetasploitableISO_Image](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/MetasploitableISOImage.PNG)
+ 
+• Set the "Type" (operating system) to "Linux" 
+![MetasploitableType](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/MetasploitableType.PNG)
+
+• Subtype and Version to "Ubuntu"
+![Metasploitable_Subtype](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/MetasploitableSubType%20Version.PNG)
+
+Click the finish button at the bottom of the page.
+
+Once your Metasploitable2 is complete, it will be listed on the left side of your VirtualBox screen under tools.
+![Metasploitable_Side](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/MetasploitableSide.PNG)
+
+5.	Start the VM and once it boots, you should see a login screen. The default login credentials are:
+   
 o	Username: msfadmin
+
 o	Password: msfadmin
+
 Now you have two virtual machines: Kali Linux for attacking and Metasploitable2 for targeting!
 ________________________________________
 Step 5: Connect the VMs to the Same Network
+
 In VirtualBox, you can set the network adapter for each VM to be on the same virtual network, so they can communicate with each other.
+
+Under Network, choose Attached to: Internal Network or Bridged Adapter (Internal Network isolates the VMs from the host machine, while Bridged Adapter allows them to access your physical network).
+
 1.	Go to the Settings of each VM (Kali Linux and Metasploitable2).
-2.	Under Network, choose Attached to: Internal Network or Bridged Adapter (Internal Network isolates the VMs from the host machine, while Bridged Adapter allows them to access your physical network).
+   
+ o   Settings
+![Settings](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBSettings.PNG)
+
+ o  Kali Linux
+   ![Network_KL](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/VBAttachNat.PNG)
+
+o Metasploitable
+![Network_Metasploitable](https://github.com/Kesmondlw79/Cybersecurity-Home-Lab-for-Beginners/blob/main/MetasploitableNetwork.PNG)
+
 ________________________________________
 Step 6: Install Essential Tools on Kali Linux
 Kali Linux comes preloaded with numerous tools, but it's important to get familiar with some core ones. These tools will help you practice penetration testing, vulnerability scanning, and network analysis:
